@@ -1,0 +1,152 @@
+/*  1. Pengaturan umum  */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: black;
+}
+
+h1 {
+    font-size: 24px;
+    color: navy;
+}
+
+h2 {
+    font-size: 18px;
+    color: navy;
+}
+
+
+/*  2. Menu atas (navbar)  */
+nav {
+    background-color: steelblue;
+    padding: 14px 24px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/*  3. Tata letak halaman  */
+.container {
+    width: 900px;
+    max-width: 95%;
+    margin: 24px auto;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 18px 22px;
+    margin-bottom: 20px;
+}
+
+
+/*  4. Tabel  */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 9px 10px;
+    text-align: left;
+    border-bottom: 1px solid lightgray;
+    font-size: 14px;
+}
+
+th {
+    background-color: aliceblue;
+}
+
+tr:hover td {
+    background-color: whitesmoke;
+}
+
+
+/*  5. Form (input, dropdown, label)  */
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+
+/*  6. Tombol  */
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: navy;
+}
+
+.btn.small {
+    padding: 4px 10px;
+    font-size: 12px;
+}
+
+.btn.danger {
+    background-color: crimson;
+}
+
+.btn.danger:hover {
+    background-color: darkred;
+}
+
+.btn.gray {
+    background-color: gray;
+}
+
+.btn.gray:hover {
+    background-color: dimgray;
+}
+
+
+/* 7. Pesan sukses dan gagal  */
+.alert {
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.alert.success {
+    background-color: honeydew;
+    color: darkgreen;
+    border: 1px solid lightgreen;
+}
+
+.alert.error {
+    background-color: mistyrose;
+    color: darkred;
+    border: 1px solid lightcoral;
+}
